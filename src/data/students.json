@@ -1,0 +1,116 @@
+{
+    "students": [
+        {
+            "id": 1,
+            "surname": "Orvoën",
+            "firstname": "Romain",
+            "gender": "Male",
+            "promotion": 2023,
+            "birthdate": "25/07/1999",
+            "mailIMT": "romain.orvoen@imt-atlantique.net",
+            "mailPersonal": "romain@orvoen.fr",
+            "phone": "0782764725",
+            "photoURL": "https://pass.imt-atlantique.fr/DataOp/Outils/Annuaire/33317cb5-3807-45e9-824e-2e96d378fdd8.jpg",
+            "companyLogoURL": "https://logo-marque.com/wp-content/uploads/2020/06/Accenture-Logo.png"
+
+        },
+        {
+            "id": 2,
+            "surname": "Orvoën",
+            "firstname": "Romain",
+            "gender": "Male",
+            "promotion": 2023,
+            "birthdate": "25/07/1999",
+            "mailIMT": "romain.orvoen@imt-atlantique.net",
+            "mailPersonal": "romain@orvoen.fr",
+            "phone": "0782764725",
+            "photoURL": "https://pass.imt-atlantique.fr/DataOp/Outils/Annuaire/33317cb5-3807-45e9-824e-2e96d378fdd8.jpg",
+            "companyLogoURL": "https://logo-marque.com/wp-content/uploads/2020/06/Accenture-Logo.png"
+
+        },
+        {
+            "id": 3,
+            "surname": "Orvoën",
+            "firstname": "Romain",
+            "gender": "Male",
+            "promotion": 2023,
+            "birthdate": "25/07/1999",
+            "mailIMT": "romain.orvoen@imt-atlantique.net",
+            "mailPersonal": "romain@orvoen.fr",
+            "phone": "0782764725",
+            "photoURL": "https://pass.imt-atlantique.fr/DataOp/Outils/Annuaire/33317cb5-3807-45e9-824e-2e96d378fdd8.jpg",
+            "companyLogoURL": "https://logo-marque.com/wp-content/uploads/2020/06/Accenture-Logo.png"
+
+        },
+        {
+            "id": 4,
+            "surname": "Orvoën",
+            "firstname": "Romain",
+            "gender": "Male",
+            "promotion": 2023,
+            "birthdate": "25/07/1999",
+            "mailIMT": "romain.orvoen@imt-atlantique.net",
+            "mailPersonal": "romain@orvoen.fr",
+            "phone": "0782764725",
+            "photoURL": "https://pass.imt-atlantique.fr/DataOp/Outils/Annuaire/33317cb5-3807-45e9-824e-2e96d378fdd8.jpg",
+            "companyLogoURL": "https://logo-marque.com/wp-content/uploads/2020/06/Accenture-Logo.png"
+
+        },
+        {
+            "id": 5,
+            "surname": "Orvoën",
+            "firstname": "Romain",
+            "gender": "Male",
+            "promotion": 2023,
+            "birthdate": "25/07/1999",
+            "mailIMT": "romain.orvoen@imt-atlantique.net",
+            "mailPersonal": "romain@orvoen.fr",
+            "phone": "0782764725",
+            "photoURL": "https://pass.imt-atlantique.fr/DataOp/Outils/Annuaire/33317cb5-3807-45e9-824e-2e96d378fdd8.jpg",
+            "companyLogoURL": "https://logo-marque.com/wp-content/uploads/2020/06/Accenture-Logo.png"
+
+        },
+        {
+            "id": 6,
+            "surname": "Orvoën",
+            "firstname": "Romain",
+            "gender": "Male",
+            "promotion": 2023,
+            "birthdate": "25/07/1999",
+            "mailIMT": "romain.orvoen@imt-atlantique.net",
+            "mailPersonal": "romain@orvoen.fr",
+            "phone": "0782764725",
+            "photoURL": "https://pass.imt-atlantique.fr/DataOp/Outils/Annuaire/33317cb5-3807-45e9-824e-2e96d378fdd8.jpg",
+            "companyLogoURL": "https://logo-marque.com/wp-content/uploads/2020/06/Accenture-Logo.png"
+
+        },
+        {
+            "id": 7,
+            "surname": "Orvoën",
+            "firstname": "Romain",
+            "gender": "Male",
+            "promotion": 2023,
+            "birthdate": "25/07/1999",
+            "mailIMT": "romain.orvoen@imt-atlantique.net",
+            "mailPersonal": "romain@orvoen.fr",
+            "phone": "0782764725",
+            "photoURL": "https://pass.imt-atlantique.fr/DataOp/Outils/Annuaire/33317cb5-3807-45e9-824e-2e96d378fdd8.jpg",
+            "companyLogoURL": "https://logo-marque.com/wp-content/uploads/2020/06/Accenture-Logo.png"
+
+        },
+        {
+            "id": 8,
+            "surname": "Orvoën",
+            "firstname": "Romain",
+            "gender": "Male",
+            "promotion": 2023,
+            "birthdate": "25/07/1999",
+            "mailIMT": "romain.orvoen@imt-atlantique.net",
+            "mailPersonal": "romain@orvoen.fr",
+            "phone": "0782764725",
+            "photoURL": "https://pass.imt-atlantique.fr/DataOp/Outils/Annuaire/33317cb5-3807-45e9-824e-2e96d378fdd8.jpg",
+            "companyLogoURL": "https://logo-marque.com/wp-content/uploads/2020/06/Accenture-Logo.png"
+
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+<mat-toolbar color="primary">
+    <span>Auto Trombinoscope IMT Atlantique</span>
+    <ng-container>
+        <mat-form-field appearance="fill">
+            <mat-label>Promotion</mat-label>
+            <mat-select>
+                <mat-option>FIL A1</mat-option>
+                <mat-option>FIL A2</mat-option>
+                <mat-option>FIL A3</mat-option>
+            </mat-select>
+        </mat-form-field>
+    </ng-container>
+</mat-toolbar>
+<div class="student-card-container">
+    <app-student-card *ngFor="let studentObj of listStudents" [student]="studentObj"></app-student-card>
+</div>
+<button class="add" mat-fab color="primary">
+    <mat-icon>add</mat-icon>
+  </button>

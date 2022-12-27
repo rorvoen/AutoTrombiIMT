@@ -1,0 +1,38 @@
+img {
+    width: 10%;
+}
+
+mat-card {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img.student {
+    height: 8rem;
+    width: 8rem;
+    margin-top: 1rem;
+    object-fit: contain;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px black
+}
+
+mat-card-title {
+    padding: 0.5rem 0 0 0;
+}
+
+img.company {
+    width: 8rem;
+    height: 5rem;
+    object-fit: contain;
+}
+
+.firstname {
+    padding-left: 0.2rem;
+}
+
+.surname {
+    text-transform: uppercase;
+}
