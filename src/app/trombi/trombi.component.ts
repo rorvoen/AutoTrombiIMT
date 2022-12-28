@@ -10,6 +10,7 @@ import { StudentService } from '../services/student.service';
 export class TrombiComponent implements OnInit {
 
   listStudents: Student[] = [];
+  promo = "";
 
   constructor(
     protected studentService: StudentService,
@@ -20,4 +21,16 @@ export class TrombiComponent implements OnInit {
         this.listStudents = res;
       });
   }
+
+  resetCookies(): void {
+    localStorage.removeItem("students");
+    window.location.reload(); 
+  }
+
+  changePromo(): void {
+    this.studentService.getStudentsByPromo(this.promo).subscribe((res) => {
+      this.listStudents = res;
+    });
+  }
+
 }

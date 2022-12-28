@@ -1,29 +1,29 @@
 export interface IStudent {
     id?: number;
-    surname?: string | null;
-    firstname?: string | null;
-    gender?: string | null;
-    promotion?: number | null;
-    birthdate?: string | null;
-    mailIMT?: string | null;
-    mailPersonal?: string | null;
-    phone?: string | null;
-    photoURL?: string | null;
-    companyLogoURL?: string | null;
+    surname?: string;
+    firstname?: string;
+    gender?: string;
+    promotion?: string;
+    birthdate?: string;
+    mailIMT?: string;
+    mailPersonal?: string;
+    phone?: string;
+    photoURL?: string;
+    companyLogoURL?: string;
 }
 
 export class Student implements IStudent {
     constructor(
         public id?: number,
-        public surname?: string | null,
-        public firstname?: string | null,
-        public gender?: string | null,
-        public promotion?: number | null,
-        public birthdate?: string | null,
-        public mailIMT?: string | null,
-        public mailPersonal?: string | null,
-        public phone?: string | null,
-        public urlPhoto?: string | null,
-        public companyLogoURL?: string | null
+        public surname?: string,
+        public firstname?: string,
+        public gender?: string,
+        public promotion?: string,
+        public birthdate?: string ,
+        public mailIMT?: string,
+        public mailPersonal?: string,
+        public phone?: string,
+        public photoURL?: string,
+        public companyLogoURL?: string
     ) {}
 }

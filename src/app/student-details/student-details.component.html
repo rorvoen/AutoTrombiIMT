@@ -1,3 +1,78 @@
 <mat-toolbar color="primary">
-    <span>Auto Trombinoscope IMT Atlantique</span>
+    <a [routerLink]="['/trombi']" class="header">
+        <span>Auto Trombinoscope IMT Atlantique</span>
+    </a>
 </mat-toolbar>
+
+<div class="main-container">
+    <h1 *ngIf="student?.id; else new">Editer l'étudiant</h1>
+    <ng-template #new>
+        <h1>Ajouter un nouvel étudiant</h1>
+    </ng-template>
+    <div class="form-container">
+        <form name="studentForm" (ngSubmit)="save()" [formGroup]="studentForm">
+            <mat-form-field>
+                <mat-label>Nom</mat-label>
+                <input type="text" matInput formControlName="surname" name="surname">
+                <mat-error class="error" *ngIf="studentForm.controls['surname'].errors != null && studentForm.controls['surname'].touched">Le champ Nom contient une erreur ou est vide</mat-error>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Prénom</mat-label>
+                <input type="text" matInput formControlName="firstname" name="firstname">
+                <mat-error class="error" *ngIf="studentForm.controls['firstname'].errors != null && studentForm.controls['firstname'].touched">Le champ Prénom contient une erreur ou est vide</mat-error>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Genre</mat-label>
+                <mat-select formControlName="gender" name="gender">
+                    <mat-option value="Female">Femme</mat-option>
+                    <mat-option value="Male">Homme</mat-option>
+                    <mat-option value="Other">Autre</mat-option>
+                </mat-select>
+                <mat-error class="error" *ngIf="studentForm.controls['gender'].errors != null && studentForm.controls['gender'].touched">Le champ Genre contient une erreur ou est vide</mat-error>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Promotion</mat-label>
+                <mat-select formControlName="promotion" name="promotion">
+                    <mat-option value="FIL A1">FIL A1</mat-option>
+                    <mat-option value="FIL A2">FIL A2</mat-option>
+                    <mat-option value="FIL A3">FIL A3</mat-option>
+                </mat-select>
+                <mat-error class="error" *ngIf="studentForm.controls['promotion'].errors != null && studentForm.controls['promotion'].touched">Le champ Promotion contient une erreur ou est vide</mat-error>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Date de naissance</mat-label>
+                <input type="date" matInput formControlName="birthdate" name="birthdate">
+                <mat-error class="error" *ngIf="studentForm.controls['birthdate'].errors != null && studentForm.controls['birthdate'].touched">Le champ Date de naissance contient une erreur ou est vide</mat-error>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Mail IMT Atlantique</mat-label>
+                <input type="email" matInput formControlName="mailIMT" name="mailIMT">
+                <mat-error class="error" *ngIf="studentForm.controls['mailIMT'].errors != null && studentForm.controls['mailIMT'].touched">Le champ Mail IMT Atlantique contient une erreur ou est vide</mat-error>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Mail Personnel</mat-label>
+                <input type="email" matInput formControlName="mailPersonal" name="mailPersonal">
+                <mat-error class="error" *ngIf="studentForm.controls['mailPersonal'].errors != null && studentForm.controls['mailPersonal'].touched">Le champ Mail Personnel contient une erreur ou est vide</mat-error>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Téléphone</mat-label>
+                <input type="tel" matInput formControlName="phone" name="phone">
+                <mat-error class="error" *ngIf="studentForm.controls['phone'].errors != null && studentForm.controls['phone'].touched">Le champ Téléphone contient une erreur ou est vide</mat-error>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>URL Photo</mat-label>
+                <input type="url" matInput formControlName="photoURL" name="photoURL">
+                <mat-error class="error" *ngIf="studentForm.controls['photoURL'].errors != null && studentForm.controls['photoURL'].touched">Le champ URL Photo contient une erreur ou est vide</mat-error>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>URL Entreprise</mat-label>
+                <input type="url" matInput formControlName="companyLogoURL" name="companyLogoURL">
+                <mat-error class="error" *ngIf="studentForm.controls['companyLogoURL'].errors != null && studentForm.controls['companyLogoURL'].touched">Le champ URL Entreprise contient une erreur ou est vide</mat-error>
+            </mat-form-field>
+            <div class="buttons">
+                <button mat-raised-button color="warn" (click)="back()">Annuler</button>
+                <button mat-raised-button color="primary" [disabled]="studentForm.invalid">Enregistrer</button>
+            </div>
+        </form>
+    </div>
+</div>

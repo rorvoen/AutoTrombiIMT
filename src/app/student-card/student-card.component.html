@@ -5,4 +5,9 @@
         <span class="firstname">{{ student.firstname }}</span>
     </mat-card-title>
     <img class="company" src="{{ student.companyLogoURL }}">
+    <mat-card-actions>
+        <button mat-icon-button color="primary" [routerLink]="['/student-details/edit/', student.id]">
+            <mat-icon>edit</mat-icon>
+        </button>
+    </mat-card-actions>
 </mat-card>

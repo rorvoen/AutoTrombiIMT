@@ -1,5 +1,10 @@
+.header {
+    color: white;
+    text-decoration: none;
+}
+
 app-student-card {
-    width: 25%;
+    width: 20%;
 }
 
 mat-toolbar {
